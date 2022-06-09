@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:title="Inicio"
+            android:icon="@drawable/ic_home"/>
+        <item
+            android:id="@+id/nav_search"
+            android:title="Buscar"
+            android:icon="@drawable/ic_search"/>
+        <item
+            android:id="@+id/nav_notification"
+            android:title="Notificaciones"
+            android:icon="@drawable/ic_bell"/>
+        <item
+            android:id="@+id/nav_buys"
+            android:title="Mis compras"
+            android:icon="@drawable/ic_bag"/>
+        <item
+            android:id="@+id/nav_favorites"
+            android:title="Favoritos"
+            android:icon="@drawable/ic_heart"/>
+        <item
+            android:id="@+id/nav_offer"
+            android:title="Ofetas"
+            android:icon="@drawable/ic_discount"/>
+        <item
+            android:id="@+id/nav_movies"
+            android:title="Peliculas y series"
+            android:icon="@drawable/ic_movies"/>
+        <item
+            android:id="@+id/nav_history"
+            android:title="Historial"
+            android:icon="@drawable/ic_history"/>
+        <item
+            android:id="@+id/nav_account"
+            android:title="Mi cuenta"
+            android:icon="@drawable/ic_user_circle"/>
+        <item
+            android:id="@+id/nav_help"
+            android:title="Ayuda / PQR"
+            android:icon="@drawable/ic_headphone"/>
+        <item
+            android:id="@+id/nav_fashion"
+            android:icon="@drawable/ic_shirt"
+            android:title="Moda" />
+        <item
+            android:id="@+id/nav_international"
+            android:icon="@drawable/ic_world"
+            android:title="Compra Internacional" />
+        <item
+            android:id="@+id/nav_shop"
+            android:icon="@drawable/ic_store"
+            android:title="Tiendas oficiales" />
+        <item
+            android:id="@+id/nav_category"
+            android:icon="@drawable/ic_category"
+            android:title="Categorías" />
+        <item
+            android:id="@+id/nav_market"
+            android:icon="@drawable/ic_market"
+            android:title="Supermercado" />
+        <item
+            android:id="@+id/nav_store"
+            android:icon="@drawable/ic_store"
+            android:title="Mercado Shops" />
+        <item
+            android:id="@+id/nav_seller"
+            android:icon="@drawable/ic_seller"
+            android:title="Vender" />
+        <item
+            android:id="@+id/nav_resume"
+            android:icon="@drawable/ic_spreadsheet"
+            android:title="Resumen" />
+        <item
+            android:id="@+id/nav_session"
+            android:icon="@drawable/ic_user_circle"
+            android:title="Cerrar sesión" />
+    </group>
+
+</menu>
